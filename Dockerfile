@@ -5,7 +5,7 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
     apt update -qq && \
     apt upgrade -y && \
     apt install sudo emacs nodejs yarn -y && \
-    mkdir homepage &&\
+    mkdir sample_app &&\
     gem install bundler
 
 ENV APP_ROOT /sample_app
