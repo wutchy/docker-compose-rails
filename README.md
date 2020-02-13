@@ -1,7 +1,7 @@
 # docker-compose-rails
 Rails開発環境用のDocker Compose設定ファイル
 
-#利用方法
+# 利用方法
 1. Dockefile docker-compose.ymlの設定を自身の環境に合わせて書き換える。
 2. docker-compose build
 3. ローカルのマウントしているディレクトリでconfig/database.ymlのhostnameとpasswordを書き換える
