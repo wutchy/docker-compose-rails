@@ -8,6 +8,9 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
     mkdir sample_app &&\
     gem install bundler
 
+# Ruby2.7.0に対応していないGemによるワーニングを隠したい場合、下記のコメントを外す。
+# RUN echo "export RUBYOPT='-W:no-deprecated -W:no-experimental'" >> ~/.bashrc
+
 ENV APP_ROOT /sample_app
 
 WORKDIR $APP_ROOT
