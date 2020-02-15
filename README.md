@@ -1,7 +1,7 @@
 # docker-compose-rails
 Rails開発環境用のDocker Compose設定ファイル
 
-#Docker Hub
+### Docker Hub
 https://hub.docker.com/r/wutchy/rails6_dev
 
 ## 利用方法
