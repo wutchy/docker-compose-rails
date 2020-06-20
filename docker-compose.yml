@@ -20,6 +20,6 @@ services:
       - .:/sample_app
     ports:
       - "3000:3000"
-    links:
+    depends_on:
       - db
     tty: true
