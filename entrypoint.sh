@@ -14,5 +14,6 @@ if [ ! -e $CONTAINER_ALREADY_STARTED ]; then
 else
   echo "-- Not first container startup --"
   rm -f tmp/pids/server.pid
+  bundle install
   rails s -b 0.0.0.0 -p 3000
 fi
