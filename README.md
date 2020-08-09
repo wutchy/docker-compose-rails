@@ -1,4 +1,4 @@
-# docker-compose-rails
+# docker-rails
 Rails開発環境用のDocker Compose設定ファイル
 
 ### Docker Hub
